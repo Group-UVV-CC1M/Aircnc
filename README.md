@@ -1,7 +1,8 @@
 > Membros: João Gustavo Soares Bispo, Mateus Costa Alves, Pedro Rielli Magnago e Thiago Almeida Deps Caldeira
 
-
-# Aircnc ![Git](https://img.shields.io/badge/GIT-2.25.2-orange)
+![Git](https://img.shields.io/badge/GIT-2.25.2-orange)
+ <br><br>
+![logo](https://user-images.githubusercontent.com/57817224/77214639-e2ea7b80-6aee-11ea-9ffe-989ea7bcbadb.png)
 
 #### Aircnc é um serviço online comunitário para as pessoas anunciarem e reservarem acomodações e meios de hospedagem. Nele existem dois tipos de indivíduos: um deles poderá anunciar a acomodação que queira alugar e outro poderá alugar essas acomodações, que podem ser divididas em 3 categorias: apartamento, casa ou quarto. O indivíduo que irá alugar a acomodação poderá ver as datas e a disponibilidade.
 #### Cada acomodação tem regras que o individuo que a anunciou irá escolher. Cada uma também deverá ter o valor por noite e uma breve descrição. Também será obrigatório ter o horário disponível para check-in e check-out. 
