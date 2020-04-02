@@ -7,6 +7,9 @@ Entidades:
    - dataReserva
    - categoria
 
+ - anunciar
+ - alugar
+
  - pessoa
      - cpf
      - nome
