@@ -1,0 +1,20 @@
+Entidades:
+ - acomodacoes
+   - IdAcomodacoes
+   - descrição da acomodação
+   - preço
+   - regra
+   - dataReserva
+   - categoria
+
+ - pessoa
+     - cpf
+     - nome
+     - dataNasc
+     - tel
+     - ender
+   |_ anunciante
+     - acomodacoes
+   |_ cliente
+     - acomodacoeEscolhida
+     - historico
