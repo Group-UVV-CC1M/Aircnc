@@ -14,4 +14,54 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8776E354-F722-406B-0C7F-54A2580C09C4">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:37:53 UTC</createdTime>
+<generatorID>8E1A90B2-5248-1206-0151-F7235BB9C731</generatorID>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<referedAttribute>C2C15EAD-9B1D-14EB-A5D8-83FB2D32BCA3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idLocador" id="44416848-2159-650B-E4CF-DD2B39865D90">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:45:09 UTC</createdTime>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAcomodacao" id="85CFDB66-129D-C903-E2AB-F28636826193">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:45:19 UTC</createdTime>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD38C271-726A-B456-6EDB-40F27428158A" name="anunciante_acomodacoes PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:39:01 UTC</createdTime>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8776E354-F722-406B-0C7F-54A2580C09C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

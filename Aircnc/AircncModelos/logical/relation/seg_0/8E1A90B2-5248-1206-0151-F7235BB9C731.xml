@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="8E1A90B2-5248-1206-0151-F7235BB9C731">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:32:44 UTC</createdTime>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<sourcePk>03EA606E-EA41-657D-788D-72066CF3DCC1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3EB10AD-479C-7D87-F653-A187150A7EC7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81F15977-404B-7873-872D-7CB7FB4F1F04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

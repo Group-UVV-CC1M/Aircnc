@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5D41B4E8-3F32-4804-0B4E-CD4702894B5F">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:42:41 UTC</createdTime>
+<generatorID>5FD786B8-EF6A-D91C-EA69-A7CCE9AC3904</generatorID>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<referedAttribute>16F66404-F0BB-A43A-0816-E597CE23FC58</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAcomodacao" id="5B177263-E1F3-37A9-1208-2DEBC76A1207">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:43:48 UTC</createdTime>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idLocatario" id="2D5A13BF-F7F6-DE30-D5E2-53CB1DF7930A">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:44:25 UTC</createdTime>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

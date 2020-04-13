@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="947C6210-2798-634A-22C3-7EF80009E189" name="Acomodacoes">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="784A2458-B1F1-DF08-BBAD-8D3B35545242" name="Cliente">
 <createdBy>Usuario</createdBy>
-<createdTime>2020-04-02 13:54:24 UTC</createdTime>
+<createdTime>2020-04-13 11:33:19 UTC</createdTime>
 <ownerDesignName>AircncModelos</ownerDesignName>
 <engineerTo>
 <item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
@@ -15,20 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="IdAcomodacoes" id="C5112645-129B-D77E-74AB-13C507017B0A">
+<Attribute name="CPF" id="16F66404-F0BB-A43A-0816-E597CE23FC58">
 <createdBy>Usuario</createdBy>
-<createdTime>2020-04-13 11:39:53 UTC</createdTime>
-<ownerDesignName>AircncModelos</ownerDesignName>
-<engineerTo>
-<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="descricao" id="E3A3B074-D4E9-902D-8D80-37EF260AF797">
-<createdBy>Usuario</createdBy>
-<createdTime>2020-04-13 11:39:59 UTC</createdTime>
+<createdTime>2020-04-13 11:36:34 UTC</createdTime>
 <ownerDesignName>AircncModelos</ownerDesignName>
 <engineerTo>
 <item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
@@ -36,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="preco" id="359DEA52-F5A2-5F4E-4059-8799BC94FF20">
+<Attribute name="Nome" id="ADB52886-9927-6D59-3C9A-5C4FB3665C77">
 <createdBy>Usuario</createdBy>
-<createdTime>2020-04-13 11:40:10 UTC</createdTime>
+<createdTime>2020-04-13 11:36:46 UTC</createdTime>
 <ownerDesignName>AircncModelos</ownerDesignName>
 <engineerTo>
 <item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
@@ -46,9 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="regra" id="2E725323-44EE-CBFD-B539-2509362254A1">
+<Attribute name="Tel" id="9F9CEB79-FF42-19BD-4685-A41CC03349D1">
 <createdBy>Usuario</createdBy>
-<createdTime>2020-04-13 11:40:26 UTC</createdTime>
+<createdTime>2020-04-13 11:36:56 UTC</createdTime>
 <ownerDesignName>AircncModelos</ownerDesignName>
 <engineerTo>
 <item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
@@ -56,9 +45,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dataReserva" id="257FFB59-8422-AEF4-E716-831C51B11005">
+<Attribute name="DataNasc" id="4D4EDD98-7726-8A2E-E330-047A267879A0">
 <createdBy>Usuario</createdBy>
-<createdTime>2020-04-13 11:40:32 UTC</createdTime>
+<createdTime>2020-04-13 11:37:10 UTC</createdTime>
 <ownerDesignName>AircncModelos</ownerDesignName>
 <engineerTo>
 <item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
@@ -66,9 +55,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="categoria" id="1746DA8C-AC11-D559-0466-B889FA821B05">
+<Attribute name="Ender" id="7F1E2B66-F8F2-3982-47AB-6CFE11B05458">
 <createdBy>Usuario</createdBy>
-<createdTime>2020-04-13 11:40:37 UTC</createdTime>
+<createdTime>2020-04-13 11:37:19 UTC</createdTime>
 <ownerDesignName>AircncModelos</ownerDesignName>
 <engineerTo>
 <item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
@@ -77,4 +66,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B80F7269-F4CD-92D0-506B-C4439C8992FE" name="Cliente PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2020-04-13 11:36:42 UTC</createdTime>
+<ownerDesignName>AircncModelos</ownerDesignName>
+<engineerTo>
+<item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16F66404-F0BB-A43A-0816-E597CE23FC58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

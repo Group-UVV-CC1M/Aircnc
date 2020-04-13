@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="FB28E330-B369-1B47-67F5-9D3CCF180DFB">
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_9" directorySegmentName="seg_0" id="34DD6573-94FB-4987-53E0-D05BA0C180F1">
 <createdBy>Usuario</createdBy>
-<createdTime>2020-04-02 13:56:55 UTC</createdTime>
+<createdTime>2020-04-13 11:42:24 UTC</createdTime>
 <ownerDesignName>AircncModelos</ownerDesignName>
 <engineerTo>
 <item key="0B369B5B-03FC-66A3-52B5-19CABBB42535" value="true"/>
@@ -11,8 +11,8 @@
 <nameOnTarget>Sub Type</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceEntity>40ADDAA5-0E39-0E7B-D236-F8C1A32C1318</sourceEntity>
-<targetEntity>2FBF58D0-8013-D5F0-90E6-234FD9237905</targetEntity>
+<sourceEntity>784A2458-B1F1-DF08-BBAD-8D3B35545242</sourceEntity>
+<targetEntity>A3EB10AD-479C-7D87-F653-A187150A7EC7</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
-</Relation>
+</InheritanceRelation>
